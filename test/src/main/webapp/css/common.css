@@ -1,0 +1,51 @@
+@charset "EUC-KR";
+
+
+body,div,h1,dl,dt,dd,ul,ol,li,em,p,span,button,a 
+{margin: 0; padding: 0;color: green;}
+nav {
+	position: relative;
+}
+nav ul{
+	background-color: #006633;
+	height: 100px;
+	display: flex;
+	padding-left: 100px;
+}
+nav ul li{
+	width: 30%;
+	line-height: 50px;
+	font-size: 25px;
+	font-weight: blod;
+	margin-left: 30px;
+	margin-top: 20px;
+	list-style: none;
+}
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	display: block;
+	width: 100%;
+}
+nav ul li a:hover{
+	background-color: red;
+	color: #000000;
+}
+nav h1{
+	position: absolute;
+}
+.font{
+	font-size: 50px;
+	color: black;
+	text-align: center;
+}
+.content{
+	font-size: 20px;
+	color: blue;
+	text-align: center;
+}
+div.main{
+	background-color: pink;
+}
